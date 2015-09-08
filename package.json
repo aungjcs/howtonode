@@ -1,0 +1,26 @@
+{
+  "name": "howtonode",
+  "version": "0.0.1",
+  "description": "How to node for node's newbie.",
+  "homepage": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": ""
+  },
+  "author": "JCS.Aung",
+  "repository": {},
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
