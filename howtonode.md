@@ -1,18 +1,19 @@
 ## How to node
 
-Node.jsとサーバーサイドjavascriptの開発方法を説明します。
+Node.jsとサーバーサイドjavascriptの  
+開発方法を説明します。
 
---
+  
 
 ## Install
 
 先ずnode.jsをインストールします。
-         
+
 各環境に合わせて[ダウンロード](https://nodejs.org/en/download/)してください。
 
 インストールはいつも通りボタンを押すだけです。
 
-==
+    
 
 ## インストールの確認 
 
@@ -22,7 +23,8 @@ Node.jsとサーバーサイドjavascriptの開発方法を説明します。
 ~ $node -v
 v0.10.25
 ```
---
+
+  
 
 ## Let's node
 
@@ -40,5 +42,5 @@ $node hello.js
 I am noding.
 ```
 
-`console.log`関数に渡した文字が出力されれば完璧です。
+`console.log`関数に渡した文字列が出力されれば完璧です。
 
