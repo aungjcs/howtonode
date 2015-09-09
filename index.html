@@ -27,16 +27,17 @@
 </head>
 
 <body>
+    <!-- これがないとハイライトされない -->
+    <pre style="display:none"><code></code></pre> 
     <div class="reveal">
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
-            <section data-markdown="howtonode.md" data-separator="^  $" data-separator-vertical="^    $" data-charset="utf-8">
+            <section data-markdown="howtonode.md">
             </section>
-
-            <!-- これがないとハイライトされない -->
-            <pre style="display:none"><code></code></pre> 
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/init.js"></script>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
 
@@ -85,19 +86,10 @@
             async: true
         }, {
             src: './js/app.js',
-            async: true
+            async: false
         }]
     });
 
-    Reveal.addEventListener('ready', function(event) {
-
-        console.log('reveal ready');
-    });
-
-    Reveal.addEventListener('slidechanged', function(event) {
-        // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-        console.log('arguments', arguments);
-    });
     </script>
 </body>
 

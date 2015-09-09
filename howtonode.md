@@ -31,7 +31,7 @@ v0.10.25
 適当なフォルダーの下に`hello.js`を作ります。  
 下記の１行を追加します。
 
-```js
+```javascript
 console.log( 'I am noding.' );
 ```
 
