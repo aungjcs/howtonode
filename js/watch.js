@@ -2,4 +2,4 @@
 
 require( 'raw!./app.js' );
 require( 'raw!../index.html' );
-require( 'raw!../howtonode.md' );
+require.context( 'raw!../md', true, /^\.\/.*\.md$/ );

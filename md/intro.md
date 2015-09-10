@@ -19,10 +19,14 @@ Node.jsとサーバーサイドjavascriptの
 
 コマンドラインから`node -v`でバージョンが表示されれば
 インストールは成功。  
+
 ```shell
-~ $node -v
+$ node -v
 v0.10.25
 ```
+
+※ここではMacを使用した例になります。  
+Windows環境の場合はコマンドプロンプトから操作してください。
 
   
 
@@ -38,7 +42,7 @@ console.log( 'I am noding.' );
 それからコマンドラインから下記のように実行します。
 
 ```sh
-$node hello.js 
+$ node hello.js 
 I am noding.
 ```
 
@@ -71,7 +75,7 @@ _fileList.js_はコマンドラインから渡された
 では実行してみましょう。
 
 ```sh
-$node fileList.js D:¥apps¥howtonode¥
+$ node fileList.js D:¥apps¥howtonode¥
 files [
   'README.md',
   'css',
@@ -106,3 +110,15 @@ _process_はグローバルオブジェクトで
 
 processの詳細は[こちらへ](https://nodejs.org/api/process.html)  
 
+  
+
+## Package
+
+パッケージ外部のライブラリーの集まりです。  
+良く使われるパッケージは下記のようなものがあります。
+
+ - [sqlite3](https://github.com/mapbox/node-sqlite3) DBドライバー
+ - [underscore](http://underscorejs.org/) 配列やオブジェクト処理
+ - [glob](https://github.com/isaacs/node-glob) ファイル検索
+ - [moment](http://momentjs.com/) 時間処理
+ - [async](https://github.com/caolan/async) 非同期コントローラー
